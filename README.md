@@ -2,6 +2,10 @@
 
 ## Commands
 
+### !commands
+
+List the available commands.
+
 ### !cat
 
 Cats are awesome.
@@ -12,7 +16,7 @@ Google memes. You know.
 
 ### !ping
 
-Use this command to check if the bot is alive.
+Use this command to check if Cthulhu is awake.
 
 ### !flip
 
