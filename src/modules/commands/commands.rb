@@ -18,6 +18,8 @@ These are the available commands:
 !roll - Basically like rolling a 6-sided dice.
 
 !ping - Use this command to check if the Cthulhu is awake.
+
+!chini - ff20 guys.
         ```"
       end
     end
