@@ -15,6 +15,8 @@ These are the available commands:
 
 !skippy - Rhum is life.
 
+!tree - You will see.
+
 !tebeste - Google memes, you know?
 
 !roll - Basically like rolling a 6-sided dice.
