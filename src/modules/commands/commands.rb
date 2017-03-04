@@ -13,6 +13,8 @@ These are the available commands:
 
 !flip - You want to flip a coin, but the other person is far away? Use this.
 
+!skippy - Rhum is life.
+
 !tebeste - Google memes, you know?
 
 !roll - Basically like rolling a 6-sided dice.

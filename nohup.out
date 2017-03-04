@@ -412,3 +412,7 @@ libsodium not available! You can continue to use discordrb as normal but voice s
 [ERROR : websocket @ 2017-03-02 15:35:31.905] /home/vincent/.rbenv/versions/2.4.0/lib/ruby/gems/2.4.0/gems/discordrb-3.2.0.1/lib/discordrb/gateway.rb:161:in `block in run_async'
 [INFO : websocket @ 2017-03-02 15:35:31.905] Instant reconnection flag was set - reconnecting right away
 [INFO : websocket @ 2017-03-02 15:35:32.258] Discord using gateway protocol version: 6, requested: 6
+Using WSCS version: 0.3.0
+libsodium not available! You can continue to use discordrb as normal but voice support won't work.
+        Read https://github.com/meew0/discordrb/wiki/Installing-libsodium for more details.
+[INFO : websocket @ 2017-03-04 14:33:29.867] Discord using gateway protocol version: 6, requested: 6

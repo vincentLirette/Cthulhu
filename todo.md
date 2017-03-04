@@ -3,8 +3,9 @@
 ### Commands
 
 - [x] !cat
-- [ ] !tebeste
-- [ ] !chini
+- [x] !tebeste
+- [x] !chini
+- [x] !skippy
 
 ### Events
 
