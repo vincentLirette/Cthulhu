@@ -1,0 +1,414 @@
+/home/vincent/.rbenv/versions/2.4.0/lib/ruby/2.4.0/rubygems/core_ext/kernel_require.rb:55:in `require': cannot load such file -- bundler/setup (LoadError)
+	from /home/vincent/.rbenv/versions/2.4.0/lib/ruby/2.4.0/rubygems/core_ext/kernel_require.rb:55:in `require'
+	from /home/vincent/Documents/GitHub/Cthulhu/src/bot.rb:2:in `<top (required)>'
+	from run.rb:2:in `require_relative'
+	from run.rb:2:in `<main>'
+/home/vincent/.rbenv/versions/2.4.0/lib/ruby/gems/2.4.0/gems/bundler-1.14.3/lib/bundler/resolver.rb:379:in `block in verify_gemfile_dependencies_are_found!': Could not find gem 'discordrb' in any of the gem sources listed in your Gemfile. (Bundler::GemNotFound)
+	from /home/vincent/.rbenv/versions/2.4.0/lib/ruby/gems/2.4.0/gems/bundler-1.14.3/lib/bundler/resolver.rb:349:in `each'
+	from /home/vincent/.rbenv/versions/2.4.0/lib/ruby/gems/2.4.0/gems/bundler-1.14.3/lib/bundler/resolver.rb:349:in `verify_gemfile_dependencies_are_found!'
+	from /home/vincent/.rbenv/versions/2.4.0/lib/ruby/gems/2.4.0/gems/bundler-1.14.3/lib/bundler/resolver.rb:203:in `start'
+	from /home/vincent/.rbenv/versions/2.4.0/lib/ruby/gems/2.4.0/gems/bundler-1.14.3/lib/bundler/resolver.rb:182:in `resolve'
+	from /home/vincent/.rbenv/versions/2.4.0/lib/ruby/gems/2.4.0/gems/bundler-1.14.3/lib/bundler/definition.rb:252:in `resolve'
+	from /home/vincent/.rbenv/versions/2.4.0/lib/ruby/gems/2.4.0/gems/bundler-1.14.3/lib/bundler/definition.rb:176:in `specs'
+	from /home/vincent/.rbenv/versions/2.4.0/lib/ruby/gems/2.4.0/gems/bundler-1.14.3/lib/bundler/definition.rb:235:in `specs_for'
+	from /home/vincent/.rbenv/versions/2.4.0/lib/ruby/gems/2.4.0/gems/bundler-1.14.3/lib/bundler/definition.rb:224:in `requested_specs'
+	from /home/vincent/.rbenv/versions/2.4.0/lib/ruby/gems/2.4.0/gems/bundler-1.14.3/lib/bundler/runtime.rb:118:in `block in definition_method'
+	from /home/vincent/.rbenv/versions/2.4.0/lib/ruby/gems/2.4.0/gems/bundler-1.14.3/lib/bundler/runtime.rb:19:in `setup'
+	from /home/vincent/.rbenv/versions/2.4.0/lib/ruby/gems/2.4.0/gems/bundler-1.14.3/lib/bundler.rb:100:in `setup'
+	from /home/vincent/.rbenv/versions/2.4.0/lib/ruby/gems/2.4.0/gems/bundler-1.14.3/lib/bundler/setup.rb:20:in `<top (required)>'
+	from /home/vincent/.rbenv/versions/2.4.0/lib/ruby/2.4.0/rubygems/core_ext/kernel_require.rb:133:in `require'
+	from /home/vincent/.rbenv/versions/2.4.0/lib/ruby/2.4.0/rubygems/core_ext/kernel_require.rb:133:in `rescue in require'
+	from /home/vincent/.rbenv/versions/2.4.0/lib/ruby/2.4.0/rubygems/core_ext/kernel_require.rb:40:in `require'
+	from /home/vincent/Documents/GitHub/Cthulhu/src/bot.rb:2:in `<top (required)>'
+	from run.rb:2:in `require_relative'
+	from run.rb:2:in `<main>'
+Using WSCS version: 0.3.0
+libsodium not available! You can continue to use discordrb as normal but voice support won't work.
+        Read https://github.com/meew0/discordrb/wiki/Installing-libsodium for more details.
+[INFO : websocket @ 2017-02-02 22:48:22.124] Discord using gateway protocol version: 6, requested: 6
+[WARN : heartbeat @ 2017-02-04 14:40:53.137] Last heartbeat was not acked, so this is a zombie connection! Reconnecting
+[ERROR : heartbeat @ 2017-02-04 14:40:53.137] The websocket connection has closed: nil
+[INFO : websocket @ 2017-02-04 14:40:53.912] Instant reconnection flag was set - reconnecting right away
+[INFO : websocket @ 2017-02-04 14:40:54.346] Discord using gateway protocol version: 6, requested: 6
+Using WSCS version: 0.3.0
+libsodium not available! You can continue to use discordrb as normal but voice support won't work.
+        Read https://github.com/meew0/discordrb/wiki/Installing-libsodium for more details.
+[INFO : websocket @ 2017-02-04 20:00:40.609] Discord using gateway protocol version: 6, requested: 6
+[WARN : heartbeat @ 2017-02-05 12:39:37.237] Last heartbeat was not acked, so this is a zombie connection! Reconnecting
+[ERROR : heartbeat @ 2017-02-05 12:39:37.237] The websocket connection has closed: nil
+[INFO : websocket @ 2017-02-05 12:39:37.453] Instant reconnection flag was set - reconnecting right away
+[INFO : websocket @ 2017-02-05 12:39:37.767] Discord using gateway protocol version: 6, requested: 6
+[WARN : heartbeat @ 2017-02-05 15:44:34.572] Last heartbeat was not acked, so this is a zombie connection! Reconnecting
+[ERROR : websocket @ 2017-02-05 15:45:17.456] An error occurred in the main websocket loop!
+[ERROR : heartbeat @ 2017-02-05 15:45:17.456] The websocket connection has closed: nil
+[ERROR : websocket @ 2017-02-05 15:45:17.456] Exception: #<Errno::ECONNRESET: Connection reset by peer>
+[ERROR : websocket @ 2017-02-05 15:45:17.456] /home/vincent/.rbenv/versions/2.4.0/lib/ruby/2.4.0/openssl/buffering.rb:57:in `sysread'
+[ERROR : websocket @ 2017-02-05 15:45:17.456] /home/vincent/.rbenv/versions/2.4.0/lib/ruby/2.4.0/openssl/buffering.rb:57:in `fill_rbuff'
+[ERROR : websocket @ 2017-02-05 15:45:17.456] /home/vincent/.rbenv/versions/2.4.0/lib/ruby/2.4.0/openssl/buffering.rb:98:in `read'
+[ERROR : websocket @ 2017-02-05 15:45:17.456] /home/vincent/.rbenv/versions/2.4.0/lib/ruby/2.4.0/openssl/buffering.rb:261:in `getc'
+[ERROR : websocket @ 2017-02-05 15:45:17.456] /home/vincent/.rbenv/versions/2.4.0/lib/ruby/gems/2.4.0/gems/discordrb-3.2.0.1/lib/discordrb/gateway.rb:544:in `block in websocket_loop'
+[ERROR : websocket @ 2017-02-05 15:45:17.456] /home/vincent/.rbenv/versions/2.4.0/lib/ruby/gems/2.4.0/gems/discordrb-3.2.0.1/lib/discordrb/gateway.rb:544:in `synchronize'
+[ERROR : websocket @ 2017-02-05 15:45:17.456] /home/vincent/.rbenv/versions/2.4.0/lib/ruby/gems/2.4.0/gems/discordrb-3.2.0.1/lib/discordrb/gateway.rb:544:in `websocket_loop'
+[ERROR : websocket @ 2017-02-05 15:45:17.456] /home/vincent/.rbenv/versions/2.4.0/lib/ruby/gems/2.4.0/gems/discordrb-3.2.0.1/lib/discordrb/gateway.rb:525:in `connect'
+[ERROR : websocket @ 2017-02-05 15:45:17.456] /home/vincent/.rbenv/versions/2.4.0/lib/ruby/gems/2.4.0/gems/discordrb-3.2.0.1/lib/discordrb/gateway.rb:432:in `block in connect_loop'
+[ERROR : websocket @ 2017-02-05 15:45:17.456] /home/vincent/.rbenv/versions/2.4.0/lib/ruby/gems/2.4.0/gems/discordrb-3.2.0.1/lib/discordrb/gateway.rb:431:in `loop'
+[ERROR : websocket @ 2017-02-05 15:45:17.456] /home/vincent/.rbenv/versions/2.4.0/lib/ruby/gems/2.4.0/gems/discordrb-3.2.0.1/lib/discordrb/gateway.rb:431:in `connect_loop'
+[ERROR : websocket @ 2017-02-05 15:45:17.456] /home/vincent/.rbenv/versions/2.4.0/lib/ruby/gems/2.4.0/gems/discordrb-3.2.0.1/lib/discordrb/gateway.rb:161:in `block in run_async'
+[INFO : websocket @ 2017-02-05 15:45:17.456] Instant reconnection flag was set - reconnecting right away
+[INFO : websocket @ 2017-02-05 15:45:17.774] Discord using gateway protocol version: 6, requested: 6
+[WARN : heartbeat @ 2017-02-05 15:46:40.956] Last heartbeat was not acked, so this is a zombie connection! Reconnecting
+[ERROR : heartbeat @ 2017-02-05 15:46:40.956] The websocket connection has closed: nil
+[INFO : websocket @ 2017-02-05 15:46:41.847] Instant reconnection flag was set - reconnecting right away
+[INFO : websocket @ 2017-02-05 15:46:42.207] Discord using gateway protocol version: 6, requested: 6
+[WARN : heartbeat @ 2017-02-05 15:48:05.457] Last heartbeat was not acked, so this is a zombie connection! Reconnecting
+[ERROR : heartbeat @ 2017-02-05 15:48:05.457] The websocket connection has closed: nil
+[INFO : websocket @ 2017-02-05 15:48:06.284] Instant reconnection flag was set - reconnecting right away
+[INFO : websocket @ 2017-02-05 15:48:06.624] Discord using gateway protocol version: 6, requested: 6
+[WARN : heartbeat @ 2017-02-05 20:12:48.828] Last heartbeat was not acked, so this is a zombie connection! Reconnecting
+[ERROR : heartbeat @ 2017-02-05 20:12:48.828] The websocket connection has closed: nil
+[INFO : websocket @ 2017-02-05 20:12:49.477] Instant reconnection flag was set - reconnecting right away
+[INFO : websocket @ 2017-02-05 20:12:49.828] Discord using gateway protocol version: 6, requested: 6
+[WARN : heartbeat @ 2017-02-06 16:24:54.132] Last heartbeat was not acked, so this is a zombie connection! Reconnecting
+[ERROR : heartbeat @ 2017-02-06 16:24:54.132] The websocket connection has closed: nil
+[INFO : websocket @ 2017-02-06 16:24:54.188] Instant reconnection flag was set - reconnecting right away
+[INFO : websocket @ 2017-02-06 16:24:54.546] Discord using gateway protocol version: 6, requested: 6
+[WARN : heartbeat @ 2017-02-07 07:07:40.533] Last heartbeat was not acked, so this is a zombie connection! Reconnecting
+[ERROR : heartbeat @ 2017-02-07 07:07:40.533] The websocket connection has closed: nil
+[INFO : websocket @ 2017-02-07 07:07:41.514] Instant reconnection flag was set - reconnecting right away
+[INFO : websocket @ 2017-02-07 07:07:41.837] Discord using gateway protocol version: 6, requested: 6
+[WARN : heartbeat @ 2017-02-07 13:45:46.465] Last heartbeat was not acked, so this is a zombie connection! Reconnecting
+[ERROR : heartbeat @ 2017-02-07 13:45:46.465] The websocket connection has closed: nil
+[INFO : websocket @ 2017-02-07 13:45:46.915] Instant reconnection flag was set - reconnecting right away
+[INFO : websocket @ 2017-02-07 13:45:47.245] Discord using gateway protocol version: 6, requested: 6
+[ERROR : websocket @ 2017-02-07 17:33:01.836] The websocket connection has closed: nil
+[ERROR : websocket @ 2017-02-07 17:33:01.836] Websocket close frame received!
+[ERROR : websocket @ 2017-02-07 17:33:01.836] Code: 1000
+[ERROR : websocket @ 2017-02-07 17:33:01.836] Message: 
+[INFO : websocket @ 2017-02-07 17:33:03.155] Discord using gateway protocol version: 6, requested: 6
+[WARN : heartbeat @ 2017-02-07 22:31:02.704] Last heartbeat was not acked, so this is a zombie connection! Reconnecting
+[ERROR : heartbeat @ 2017-02-07 22:31:02.704] The websocket connection has closed: nil
+[INFO : websocket @ 2017-02-07 22:31:03.009] Instant reconnection flag was set - reconnecting right away
+[INFO : websocket @ 2017-02-07 22:31:03.332] Discord using gateway protocol version: 6, requested: 6
+[ERROR : websocket @ 2017-02-08 11:51:19.117] The websocket connection has closed: nil
+[ERROR : websocket @ 2017-02-08 11:51:19.117] Websocket close frame received!
+[ERROR : websocket @ 2017-02-08 11:51:19.117] Code: 1001
+[ERROR : websocket @ 2017-02-08 11:51:19.117] Message: 
+[INFO : websocket @ 2017-02-08 11:51:20.952] Discord using gateway protocol version: 6, requested: 6
+[WARN : heartbeat @ 2017-02-09 04:12:23.271] Last heartbeat was not acked, so this is a zombie connection! Reconnecting
+[ERROR : heartbeat @ 2017-02-09 04:12:23.271] The websocket connection has closed: nil
+[INFO : websocket @ 2017-02-09 04:12:24.053] Instant reconnection flag was set - reconnecting right away
+[INFO : websocket @ 2017-02-09 04:12:24.403] Discord using gateway protocol version: 6, requested: 6
+[WARN : heartbeat @ 2017-02-09 16:29:25.607] Last heartbeat was not acked, so this is a zombie connection! Reconnecting
+[ERROR : heartbeat @ 2017-02-09 16:29:25.607] The websocket connection has closed: nil
+[INFO : websocket @ 2017-02-09 16:29:25.627] Instant reconnection flag was set - reconnecting right away
+[INFO : websocket @ 2017-02-09 16:29:26.000] Discord using gateway protocol version: 6, requested: 6
+[WARN : heartbeat @ 2017-02-09 16:31:30.358] Last heartbeat was not acked, so this is a zombie connection! Reconnecting
+[ERROR : heartbeat @ 2017-02-09 16:31:30.358] The websocket connection has closed: nil
+[INFO : websocket @ 2017-02-09 16:31:31.267] Instant reconnection flag was set - reconnecting right away
+[INFO : websocket @ 2017-02-09 16:31:31.630] Discord using gateway protocol version: 6, requested: 6
+[ERROR : websocket @ 2017-02-09 16:36:51.588] The websocket connection has closed: nil
+[INFO : websocket @ 2017-02-09 16:36:51.588] Instant reconnection flag was set - reconnecting right away
+[INFO : websocket @ 2017-02-09 16:36:51.952] Discord using gateway protocol version: 6, requested: 6
+[ERROR : websocket @ 2017-02-10 06:05:51.203] An error occurred in the main websocket loop!
+[ERROR : websocket @ 2017-02-10 06:05:51.203] Exception: #<Errno::ECONNRESET: Connection reset by peer>
+[ERROR : websocket @ 2017-02-10 06:05:51.203] /home/vincent/.rbenv/versions/2.4.0/lib/ruby/2.4.0/openssl/buffering.rb:57:in `sysread'
+[ERROR : websocket @ 2017-02-10 06:05:51.203] /home/vincent/.rbenv/versions/2.4.0/lib/ruby/2.4.0/openssl/buffering.rb:57:in `fill_rbuff'
+[ERROR : websocket @ 2017-02-10 06:05:51.203] /home/vincent/.rbenv/versions/2.4.0/lib/ruby/2.4.0/openssl/buffering.rb:98:in `read'
+[ERROR : websocket @ 2017-02-10 06:05:51.203] /home/vincent/.rbenv/versions/2.4.0/lib/ruby/2.4.0/openssl/buffering.rb:261:in `getc'
+[ERROR : websocket @ 2017-02-10 06:05:51.203] /home/vincent/.rbenv/versions/2.4.0/lib/ruby/gems/2.4.0/gems/discordrb-3.2.0.1/lib/discordrb/gateway.rb:544:in `block in websocket_loop'
+[ERROR : websocket @ 2017-02-10 06:05:51.203] /home/vincent/.rbenv/versions/2.4.0/lib/ruby/gems/2.4.0/gems/discordrb-3.2.0.1/lib/discordrb/gateway.rb:544:in `synchronize'
+[ERROR : websocket @ 2017-02-10 06:05:51.203] /home/vincent/.rbenv/versions/2.4.0/lib/ruby/gems/2.4.0/gems/discordrb-3.2.0.1/lib/discordrb/gateway.rb:544:in `websocket_loop'
+[ERROR : websocket @ 2017-02-10 06:05:51.203] /home/vincent/.rbenv/versions/2.4.0/lib/ruby/gems/2.4.0/gems/discordrb-3.2.0.1/lib/discordrb/gateway.rb:525:in `connect'
+[ERROR : websocket @ 2017-02-10 06:05:51.203] /home/vincent/.rbenv/versions/2.4.0/lib/ruby/gems/2.4.0/gems/discordrb-3.2.0.1/lib/discordrb/gateway.rb:432:in `block in connect_loop'
+[ERROR : websocket @ 2017-02-10 06:05:51.203] /home/vincent/.rbenv/versions/2.4.0/lib/ruby/gems/2.4.0/gems/discordrb-3.2.0.1/lib/discordrb/gateway.rb:431:in `loop'
+[ERROR : websocket @ 2017-02-10 06:05:51.203] /home/vincent/.rbenv/versions/2.4.0/lib/ruby/gems/2.4.0/gems/discordrb-3.2.0.1/lib/discordrb/gateway.rb:431:in `connect_loop'
+[ERROR : websocket @ 2017-02-10 06:05:51.203] /home/vincent/.rbenv/versions/2.4.0/lib/ruby/gems/2.4.0/gems/discordrb-3.2.0.1/lib/discordrb/gateway.rb:161:in `block in run_async'
+[ERROR : heartbeat @ 2017-02-10 06:06:13.978] The websocket connection has closed: nil
+[ERROR : heartbeat @ 2017-02-10 06:06:13.978] The websocket connection has closed due to an error!
+[ERROR : heartbeat @ 2017-02-10 06:06:13.978] Exception: #<Errno::EPIPE: Broken pipe>
+[ERROR : heartbeat @ 2017-02-10 06:06:13.978] /home/vincent/.rbenv/versions/2.4.0/lib/ruby/2.4.0/openssl/buffering.rb:324:in `syswrite'
+[ERROR : heartbeat @ 2017-02-10 06:06:13.978] /home/vincent/.rbenv/versions/2.4.0/lib/ruby/2.4.0/openssl/buffering.rb:324:in `do_write'
+[ERROR : heartbeat @ 2017-02-10 06:06:13.978] /home/vincent/.rbenv/versions/2.4.0/lib/ruby/2.4.0/openssl/buffering.rb:342:in `write'
+[ERROR : heartbeat @ 2017-02-10 06:06:13.978] /home/vincent/.rbenv/versions/2.4.0/lib/ruby/gems/2.4.0/gems/discordrb-3.2.0.1/lib/discordrb/gateway.rb:746:in `send'
+[ERROR : heartbeat @ 2017-02-10 06:06:13.978] /home/vincent/.rbenv/versions/2.4.0/lib/ruby/gems/2.4.0/gems/discordrb-3.2.0.1/lib/discordrb/gateway.rb:730:in `send_packet'
+[ERROR : heartbeat @ 2017-02-10 06:06:13.978] /home/vincent/.rbenv/versions/2.4.0/lib/ruby/gems/2.4.0/gems/discordrb-3.2.0.1/lib/discordrb/gateway.rb:254:in `send_heartbeat'
+[ERROR : heartbeat @ 2017-02-10 06:06:13.978] /home/vincent/.rbenv/versions/2.4.0/lib/ruby/gems/2.4.0/gems/discordrb-3.2.0.1/lib/discordrb/gateway.rb:247:in `heartbeat'
+[ERROR : heartbeat @ 2017-02-10 06:06:13.978] /home/vincent/.rbenv/versions/2.4.0/lib/ruby/gems/2.4.0/gems/discordrb-3.2.0.1/lib/discordrb/gateway.rb:414:in `block (2 levels) in setup_heartbeats'
+[ERROR : heartbeat @ 2017-02-10 06:06:13.978] /home/vincent/.rbenv/versions/2.4.0/lib/ruby/gems/2.4.0/gems/discordrb-3.2.0.1/lib/discordrb/gateway.rb:407:in `loop'
+[ERROR : heartbeat @ 2017-02-10 06:06:13.978] /home/vincent/.rbenv/versions/2.4.0/lib/ruby/gems/2.4.0/gems/discordrb-3.2.0.1/lib/discordrb/gateway.rb:407:in `block in setup_heartbeats'
+[INFO : websocket @ 2017-02-10 06:06:16.998] Discord using gateway protocol version: 6, requested: 6
+[ERROR : websocket @ 2017-02-10 07:11:29.919] An error occurred in the main websocket loop!
+[ERROR : websocket @ 2017-02-10 07:11:29.919] Exception: #<Errno::ECONNRESET: Connection reset by peer>
+[ERROR : websocket @ 2017-02-10 07:11:29.919] /home/vincent/.rbenv/versions/2.4.0/lib/ruby/2.4.0/openssl/buffering.rb:57:in `sysread'
+[ERROR : websocket @ 2017-02-10 07:11:29.919] /home/vincent/.rbenv/versions/2.4.0/lib/ruby/2.4.0/openssl/buffering.rb:57:in `fill_rbuff'
+[ERROR : websocket @ 2017-02-10 07:11:29.919] /home/vincent/.rbenv/versions/2.4.0/lib/ruby/2.4.0/openssl/buffering.rb:98:in `read'
+[ERROR : websocket @ 2017-02-10 07:11:29.919] /home/vincent/.rbenv/versions/2.4.0/lib/ruby/2.4.0/openssl/buffering.rb:261:in `getc'
+[ERROR : websocket @ 2017-02-10 07:11:29.919] /home/vincent/.rbenv/versions/2.4.0/lib/ruby/gems/2.4.0/gems/discordrb-3.2.0.1/lib/discordrb/gateway.rb:544:in `block in websocket_loop'
+[ERROR : websocket @ 2017-02-10 07:11:29.919] /home/vincent/.rbenv/versions/2.4.0/lib/ruby/gems/2.4.0/gems/discordrb-3.2.0.1/lib/discordrb/gateway.rb:544:in `synchronize'
+[ERROR : websocket @ 2017-02-10 07:11:29.919] /home/vincent/.rbenv/versions/2.4.0/lib/ruby/gems/2.4.0/gems/discordrb-3.2.0.1/lib/discordrb/gateway.rb:544:in `websocket_loop'
+[ERROR : websocket @ 2017-02-10 07:11:29.919] /home/vincent/.rbenv/versions/2.4.0/lib/ruby/gems/2.4.0/gems/discordrb-3.2.0.1/lib/discordrb/gateway.rb:525:in `connect'
+[ERROR : websocket @ 2017-02-10 07:11:29.920] /home/vincent/.rbenv/versions/2.4.0/lib/ruby/gems/2.4.0/gems/discordrb-3.2.0.1/lib/discordrb/gateway.rb:432:in `block in connect_loop'
+[ERROR : websocket @ 2017-02-10 07:11:29.920] /home/vincent/.rbenv/versions/2.4.0/lib/ruby/gems/2.4.0/gems/discordrb-3.2.0.1/lib/discordrb/gateway.rb:431:in `loop'
+[ERROR : websocket @ 2017-02-10 07:11:29.920] /home/vincent/.rbenv/versions/2.4.0/lib/ruby/gems/2.4.0/gems/discordrb-3.2.0.1/lib/discordrb/gateway.rb:431:in `connect_loop'
+[ERROR : websocket @ 2017-02-10 07:11:29.920] /home/vincent/.rbenv/versions/2.4.0/lib/ruby/gems/2.4.0/gems/discordrb-3.2.0.1/lib/discordrb/gateway.rb:161:in `block in run_async'
+[ERROR : heartbeat @ 2017-02-10 07:11:35.758] The websocket connection has closed: nil
+[ERROR : heartbeat @ 2017-02-10 07:11:35.758] The websocket connection has closed due to an error!
+[ERROR : heartbeat @ 2017-02-10 07:11:35.758] Exception: #<Errno::EPIPE: Broken pipe>
+[ERROR : heartbeat @ 2017-02-10 07:11:35.759] /home/vincent/.rbenv/versions/2.4.0/lib/ruby/2.4.0/openssl/buffering.rb:324:in `syswrite'
+[ERROR : heartbeat @ 2017-02-10 07:11:35.759] /home/vincent/.rbenv/versions/2.4.0/lib/ruby/2.4.0/openssl/buffering.rb:324:in `do_write'
+[ERROR : heartbeat @ 2017-02-10 07:11:35.759] /home/vincent/.rbenv/versions/2.4.0/lib/ruby/2.4.0/openssl/buffering.rb:342:in `write'
+[ERROR : heartbeat @ 2017-02-10 07:11:35.759] /home/vincent/.rbenv/versions/2.4.0/lib/ruby/gems/2.4.0/gems/discordrb-3.2.0.1/lib/discordrb/gateway.rb:746:in `send'
+[ERROR : heartbeat @ 2017-02-10 07:11:35.759] /home/vincent/.rbenv/versions/2.4.0/lib/ruby/gems/2.4.0/gems/discordrb-3.2.0.1/lib/discordrb/gateway.rb:730:in `send_packet'
+[ERROR : heartbeat @ 2017-02-10 07:11:35.759] /home/vincent/.rbenv/versions/2.4.0/lib/ruby/gems/2.4.0/gems/discordrb-3.2.0.1/lib/discordrb/gateway.rb:254:in `send_heartbeat'
+[ERROR : heartbeat @ 2017-02-10 07:11:35.759] /home/vincent/.rbenv/versions/2.4.0/lib/ruby/gems/2.4.0/gems/discordrb-3.2.0.1/lib/discordrb/gateway.rb:247:in `heartbeat'
+[ERROR : heartbeat @ 2017-02-10 07:11:35.759] /home/vincent/.rbenv/versions/2.4.0/lib/ruby/gems/2.4.0/gems/discordrb-3.2.0.1/lib/discordrb/gateway.rb:414:in `block (2 levels) in setup_heartbeats'
+[ERROR : heartbeat @ 2017-02-10 07:11:35.759] /home/vincent/.rbenv/versions/2.4.0/lib/ruby/gems/2.4.0/gems/discordrb-3.2.0.1/lib/discordrb/gateway.rb:407:in `loop'
+[ERROR : heartbeat @ 2017-02-10 07:11:35.759] /home/vincent/.rbenv/versions/2.4.0/lib/ruby/gems/2.4.0/gems/discordrb-3.2.0.1/lib/discordrb/gateway.rb:407:in `block in setup_heartbeats'
+[INFO : websocket @ 2017-02-10 07:11:39.892] Discord using gateway protocol version: 6, requested: 6
+[WARN : heartbeat @ 2017-02-10 09:06:29.561] Last heartbeat was not acked, so this is a zombie connection! Reconnecting
+[ERROR : heartbeat @ 2017-02-10 09:06:29.561] The websocket connection has closed: nil
+[INFO : websocket @ 2017-02-10 09:06:29.877] Instant reconnection flag was set - reconnecting right away
+[INFO : websocket @ 2017-02-10 09:06:30.223] Discord using gateway protocol version: 6, requested: 6
+[ERROR : websocket @ 2017-02-10 14:23:44.173] The websocket connection has closed: nil
+[ERROR : websocket @ 2017-02-10 14:23:44.173] Websocket close frame received!
+[ERROR : websocket @ 2017-02-10 14:23:44.173] Code: 1001
+[ERROR : websocket @ 2017-02-10 14:23:44.173] Message: CloudFlare WebSocket proxy restarting
+[INFO : websocket @ 2017-02-10 14:23:49.597] Discord using gateway protocol version: 6, requested: 6
+[ERROR : websocket @ 2017-02-10 14:33:45.802] The websocket connection has closed: nil
+[ERROR : websocket @ 2017-02-10 14:33:45.803] Websocket close frame received!
+[ERROR : websocket @ 2017-02-10 14:33:45.803] Code: 1001
+[ERROR : websocket @ 2017-02-10 14:33:45.803] Message: 
+[INFO : websocket @ 2017-02-10 14:33:53.757] Discord using gateway protocol version: 6, requested: 6
+[WARN : heartbeat @ 2017-02-12 15:58:58.317] Last heartbeat was not acked, so this is a zombie connection! Reconnecting
+[ERROR : heartbeat @ 2017-02-12 15:58:58.317] The websocket connection has closed: nil
+[INFO : websocket @ 2017-02-12 15:58:58.597] Instant reconnection flag was set - reconnecting right away
+[INFO : websocket @ 2017-02-12 15:58:58.982] Discord using gateway protocol version: 6, requested: 6
+[WARN : heartbeat @ 2017-02-12 20:14:03.183] Last heartbeat was not acked, so this is a zombie connection! Reconnecting
+[ERROR : heartbeat @ 2017-02-12 20:14:03.183] The websocket connection has closed: nil
+[INFO : websocket @ 2017-02-12 20:14:03.652] Instant reconnection flag was set - reconnecting right away
+[INFO : websocket @ 2017-02-12 20:14:04.009] Discord using gateway protocol version: 6, requested: 6
+[WARN : heartbeat @ 2017-02-13 09:25:23.294] Last heartbeat was not acked, so this is a zombie connection! Reconnecting
+[ERROR : heartbeat @ 2017-02-13 09:25:23.294] The websocket connection has closed: nil
+[INFO : websocket @ 2017-02-13 09:25:24.180] Instant reconnection flag was set - reconnecting right away
+[INFO : websocket @ 2017-02-13 09:25:24.529] Discord using gateway protocol version: 6, requested: 6
+[ERROR : websocket @ 2017-02-13 11:13:21.657] The websocket connection has closed: nil
+[ERROR : websocket @ 2017-02-13 11:13:21.657] Websocket close frame received!
+[ERROR : websocket @ 2017-02-13 11:13:21.657] Code: 1001
+[ERROR : websocket @ 2017-02-13 11:13:21.657] Message: 
+[INFO : websocket @ 2017-02-13 11:13:33.510] Discord using gateway protocol version: 6, requested: 6
+[ERROR : websocket @ 2017-02-13 12:55:46.233] The websocket connection has closed: nil
+[ERROR : websocket @ 2017-02-13 12:55:46.233] Websocket close frame received!
+[ERROR : websocket @ 2017-02-13 12:55:46.233] Code: 1001
+[ERROR : websocket @ 2017-02-13 12:55:46.233] Message: CloudFlare WebSocket proxy restarting
+[ERROR : heartbeat @ 2017-02-13 12:55:47.894] An error occurred while heartbeating!
+[ERROR : heartbeat @ 2017-02-13 12:55:47.894] Exception: #<RuntimeError: Tried to send something to the websocket while not being connected!>
+[ERROR : heartbeat @ 2017-02-13 12:55:47.894] /home/vincent/.rbenv/versions/2.4.0/lib/ruby/gems/2.4.0/gems/discordrb-3.2.0.1/lib/discordrb/gateway.rb:738:in `send'
+[ERROR : heartbeat @ 2017-02-13 12:55:47.894] /home/vincent/.rbenv/versions/2.4.0/lib/ruby/gems/2.4.0/gems/discordrb-3.2.0.1/lib/discordrb/gateway.rb:730:in `send_packet'
+[ERROR : heartbeat @ 2017-02-13 12:55:47.894] /home/vincent/.rbenv/versions/2.4.0/lib/ruby/gems/2.4.0/gems/discordrb-3.2.0.1/lib/discordrb/gateway.rb:254:in `send_heartbeat'
+[ERROR : heartbeat @ 2017-02-13 12:55:47.894] /home/vincent/.rbenv/versions/2.4.0/lib/ruby/gems/2.4.0/gems/discordrb-3.2.0.1/lib/discordrb/gateway.rb:247:in `heartbeat'
+[ERROR : heartbeat @ 2017-02-13 12:55:47.894] /home/vincent/.rbenv/versions/2.4.0/lib/ruby/gems/2.4.0/gems/discordrb-3.2.0.1/lib/discordrb/gateway.rb:414:in `block (2 levels) in setup_heartbeats'
+[ERROR : heartbeat @ 2017-02-13 12:55:47.894] /home/vincent/.rbenv/versions/2.4.0/lib/ruby/gems/2.4.0/gems/discordrb-3.2.0.1/lib/discordrb/gateway.rb:407:in `loop'
+[ERROR : heartbeat @ 2017-02-13 12:55:47.894] /home/vincent/.rbenv/versions/2.4.0/lib/ruby/gems/2.4.0/gems/discordrb-3.2.0.1/lib/discordrb/gateway.rb:407:in `block in setup_heartbeats'
+[INFO : websocket @ 2017-02-13 12:56:03.673] Discord using gateway protocol version: 6, requested: 6
+[WARN : heartbeat @ 2017-02-13 20:00:56.589] Last heartbeat was not acked, so this is a zombie connection! Reconnecting
+[ERROR : heartbeat @ 2017-02-13 20:00:56.589] The websocket connection has closed: nil
+[INFO : websocket @ 2017-02-13 20:00:57.377] Instant reconnection flag was set - reconnecting right away
+[INFO : websocket @ 2017-02-13 20:00:57.738] Discord using gateway protocol version: 6, requested: 6
+[ERROR : websocket @ 2017-02-14 07:12:40.195] The websocket connection has closed: nil
+[ERROR : websocket @ 2017-02-14 07:12:40.195] Websocket close frame received!
+[ERROR : websocket @ 2017-02-14 07:12:40.195] Code: 1001
+[ERROR : websocket @ 2017-02-14 07:12:40.195] Message: 
+[INFO : websocket @ 2017-02-14 07:13:06.210] Discord using gateway protocol version: 6, requested: 6
+[ERROR : websocket @ 2017-02-14 09:20:32.750] The websocket connection has closed: nil
+[ERROR : websocket @ 2017-02-14 09:20:32.750] Websocket close frame received!
+[ERROR : websocket @ 2017-02-14 09:20:32.750] Code: 1001
+[ERROR : websocket @ 2017-02-14 09:20:32.750] Message: 
+[INFO : websocket @ 2017-02-14 09:21:11.549] Discord using gateway protocol version: 6, requested: 6
+[WARN : heartbeat @ 2017-02-14 11:22:55.259] Last heartbeat was not acked, so this is a zombie connection! Reconnecting
+[ERROR : heartbeat @ 2017-02-14 11:22:55.259] The websocket connection has closed: nil
+[INFO : websocket @ 2017-02-14 11:22:55.519] Instant reconnection flag was set - reconnecting right away
+[INFO : websocket @ 2017-02-14 11:22:55.900] Discord using gateway protocol version: 6, requested: 6
+[WARN : heartbeat @ 2017-02-14 11:40:48.767] Last heartbeat was not acked, so this is a zombie connection! Reconnecting
+[ERROR : heartbeat @ 2017-02-14 11:40:48.767] The websocket connection has closed: nil
+[INFO : websocket @ 2017-02-14 11:40:49.232] Instant reconnection flag was set - reconnecting right away
+[INFO : websocket @ 2017-02-14 11:40:49.589] Discord using gateway protocol version: 6, requested: 6
+[WARN : heartbeat @ 2017-02-14 16:36:27.402] Last heartbeat was not acked, so this is a zombie connection! Reconnecting
+[ERROR : heartbeat @ 2017-02-14 16:36:27.402] The websocket connection has closed: nil
+[INFO : websocket @ 2017-02-14 16:36:27.979] Instant reconnection flag was set - reconnecting right away
+[INFO : websocket @ 2017-02-14 16:36:28.348] Discord using gateway protocol version: 6, requested: 6
+[WARN : heartbeat @ 2017-02-15 06:52:25.042] Last heartbeat was not acked, so this is a zombie connection! Reconnecting
+[ERROR : heartbeat @ 2017-02-15 07:02:03.804] The websocket connection has closed: nil
+[INFO : websocket @ 2017-02-15 07:02:04.804] Instant reconnection flag was set - reconnecting right away
+[INFO : websocket @ 2017-02-15 07:02:05.236] Discord using gateway protocol version: 6, requested: 6
+[ERROR : websocket @ 2017-02-15 14:55:47.367] The websocket connection has closed: nil
+[ERROR : websocket @ 2017-02-15 14:55:47.367] Websocket close frame received!
+[ERROR : websocket @ 2017-02-15 14:55:47.367] Code: 1001
+[ERROR : websocket @ 2017-02-15 14:55:47.367] Message: 
+[WARN : heartbeat @ 2017-02-15 14:56:28.519] Last heartbeat was not acked, so this is a zombie connection! Reconnecting
+[INFO : websocket @ 2017-02-15 14:56:45.463] Discord using gateway protocol version: 6, requested: 6
+[ERROR : websocket @ 2017-02-15 15:24:15.624] The websocket connection has closed: nil
+[ERROR : websocket @ 2017-02-15 15:24:15.624] Websocket close frame received!
+[ERROR : websocket @ 2017-02-15 15:24:15.624] Code: 1001
+[ERROR : websocket @ 2017-02-15 15:24:15.624] Message: 
+[INFO : websocket @ 2017-02-15 15:24:15.624] Instant reconnection flag was set - reconnecting right away
+[INFO : websocket @ 2017-02-15 15:24:16.200] Discord using gateway protocol version: 6, requested: 6
+[WARN : heartbeat @ 2017-02-15 15:43:30.541] Last heartbeat was not acked, so this is a zombie connection! Reconnecting
+[ERROR : heartbeat @ 2017-02-15 15:43:30.542] The websocket connection has closed: nil
+[INFO : websocket @ 2017-02-15 15:43:30.701] Instant reconnection flag was set - reconnecting right away
+[INFO : websocket @ 2017-02-15 15:43:31.141] Discord using gateway protocol version: 6, requested: 6
+[WARN : heartbeat @ 2017-02-15 19:45:31.652] Last heartbeat was not acked, so this is a zombie connection! Reconnecting
+[ERROR : heartbeat @ 2017-02-15 19:45:31.652] The websocket connection has closed: nil
+[INFO : websocket @ 2017-02-15 19:45:32.433] Instant reconnection flag was set - reconnecting right away
+[INFO : websocket @ 2017-02-15 19:45:33.011] Discord using gateway protocol version: 6, requested: 6
+[WARN : heartbeat @ 2017-02-16 00:05:26.270] Last heartbeat was not acked, so this is a zombie connection! Reconnecting
+[ERROR : heartbeat @ 2017-02-16 00:05:26.270] The websocket connection has closed: nil
+[INFO : websocket @ 2017-02-16 00:05:27.213] Instant reconnection flag was set - reconnecting right away
+[INFO : websocket @ 2017-02-16 00:05:27.666] Discord using gateway protocol version: 6, requested: 6
+[WARN : heartbeat @ 2017-02-16 15:32:13.691] Last heartbeat was not acked, so this is a zombie connection! Reconnecting
+[ERROR : heartbeat @ 2017-02-16 15:32:13.691] The websocket connection has closed: nil
+[INFO : websocket @ 2017-02-16 15:32:13.770] Instant reconnection flag was set - reconnecting right away
+[INFO : websocket @ 2017-02-16 15:32:14.218] Discord using gateway protocol version: 6, requested: 6
+[WARN : heartbeat @ 2017-02-16 17:57:18.508] Last heartbeat was not acked, so this is a zombie connection! Reconnecting
+[ERROR : heartbeat @ 2017-02-16 17:57:18.508] The websocket connection has closed: nil
+[INFO : websocket @ 2017-02-16 17:57:18.656] Instant reconnection flag was set - reconnecting right away
+[INFO : websocket @ 2017-02-16 17:57:19.115] Discord using gateway protocol version: 6, requested: 6
+[WARN : heartbeat @ 2017-02-16 21:58:38.369] Last heartbeat was not acked, so this is a zombie connection! Reconnecting
+[ERROR : heartbeat @ 2017-02-16 21:58:38.369] The websocket connection has closed: nil
+[INFO : websocket @ 2017-02-16 21:58:38.380] Instant reconnection flag was set - reconnecting right away
+[INFO : websocket @ 2017-02-16 21:58:38.854] Discord using gateway protocol version: 6, requested: 6
+[ERROR : websocket @ 2017-02-18 03:35:10.270] The websocket connection has closed: nil
+[ERROR : websocket @ 2017-02-18 03:35:10.271] Websocket close frame received!
+[ERROR : websocket @ 2017-02-18 03:35:10.271] Code: 1001
+[ERROR : websocket @ 2017-02-18 03:35:10.271] Message: 
+[WARN : heartbeat @ 2017-02-18 03:35:51.433] Last heartbeat was not acked, so this is a zombie connection! Reconnecting
+[INFO : websocket @ 2017-02-18 03:36:37.235] Discord using gateway protocol version: 6, requested: 6
+[ERROR : websocket @ 2017-02-18 04:46:03.808] The websocket connection has closed: nil
+[ERROR : websocket @ 2017-02-18 04:46:03.808] Websocket close frame received!
+[ERROR : websocket @ 2017-02-18 04:46:03.808] Code: 1001
+[ERROR : websocket @ 2017-02-18 04:46:03.808] Message: 
+[INFO : websocket @ 2017-02-18 04:46:03.808] Instant reconnection flag was set - reconnecting right away
+[INFO : websocket @ 2017-02-18 04:46:04.273] Discord using gateway protocol version: 6, requested: 6
+[ERROR : websocket @ 2017-02-18 21:15:23.011] The websocket connection has closed: nil
+[ERROR : websocket @ 2017-02-18 21:15:23.011] Websocket close frame received!
+[ERROR : websocket @ 2017-02-18 21:15:23.011] Code: 1001
+[ERROR : websocket @ 2017-02-18 21:15:23.011] Message: 
+[WARN : heartbeat @ 2017-02-18 21:16:04.170] Last heartbeat was not acked, so this is a zombie connection! Reconnecting
+[INFO : websocket @ 2017-02-18 21:17:25.672] Discord using gateway protocol version: 6, requested: 6
+[WARN : heartbeat @ 2017-02-19 00:01:45.000] Last heartbeat was not acked, so this is a zombie connection! Reconnecting
+[ERROR : heartbeat @ 2017-02-19 00:01:45.000] The websocket connection has closed: nil
+[INFO : websocket @ 2017-02-19 00:01:45.788] Instant reconnection flag was set - reconnecting right away
+[INFO : websocket @ 2017-02-19 00:01:46.288] Discord using gateway protocol version: 6, requested: 6
+[ERROR : websocket @ 2017-02-20 16:05:59.441] The websocket connection has closed: nil
+[ERROR : websocket @ 2017-02-20 16:05:59.441] Websocket close frame received!
+[ERROR : websocket @ 2017-02-20 16:05:59.441] Code: 1001
+[ERROR : websocket @ 2017-02-20 16:05:59.441] Message: 
+[WARN : heartbeat @ 2017-02-20 16:06:40.603] Last heartbeat was not acked, so this is a zombie connection! Reconnecting
+[INFO : websocket @ 2017-02-20 16:07:57.787] Discord using gateway protocol version: 6, requested: 6
+[WARN : heartbeat @ 2017-02-21 14:33:25.474] Last heartbeat was not acked, so this is a zombie connection! Reconnecting
+[ERROR : heartbeat @ 2017-02-21 14:33:25.474] The websocket connection has closed: nil
+[INFO : websocket @ 2017-02-21 14:33:26.013] Instant reconnection flag was set - reconnecting right away
+[INFO : websocket @ 2017-02-21 14:33:26.424] Discord using gateway protocol version: 6, requested: 6
+[WARN : heartbeat @ 2017-02-21 18:54:00.346] Last heartbeat was not acked, so this is a zombie connection! Reconnecting
+[ERROR : heartbeat @ 2017-02-21 18:54:00.346] The websocket connection has closed: nil
+[INFO : websocket @ 2017-02-21 18:54:01.122] Instant reconnection flag was set - reconnecting right away
+[INFO : websocket @ 2017-02-21 18:54:01.457] Discord using gateway protocol version: 6, requested: 6
+[WARN : heartbeat @ 2017-02-22 05:13:28.879] Last heartbeat was not acked, so this is a zombie connection! Reconnecting
+[ERROR : heartbeat @ 2017-02-22 05:13:28.879] The websocket connection has closed: nil
+[INFO : websocket @ 2017-02-22 05:13:29.661] Instant reconnection flag was set - reconnecting right away
+[INFO : websocket @ 2017-02-22 05:13:30.242] Discord using gateway protocol version: 6, requested: 6
+[ERROR : websocket @ 2017-02-22 11:15:49.898] The websocket connection has closed: nil
+[ERROR : websocket @ 2017-02-22 11:15:49.899] Websocket close frame received!
+[ERROR : websocket @ 2017-02-22 11:15:49.899] Code: 1001
+[ERROR : websocket @ 2017-02-22 11:15:49.899] Message: 
+[WARN : heartbeat @ 2017-02-22 11:16:31.047] Last heartbeat was not acked, so this is a zombie connection! Reconnecting
+[INFO : websocket @ 2017-02-22 11:17:48.637] Discord using gateway protocol version: 6, requested: 6
+[WARN : heartbeat @ 2017-02-23 19:55:48.947] Last heartbeat was not acked, so this is a zombie connection! Reconnecting
+[ERROR : heartbeat @ 2017-02-23 19:55:48.947] The websocket connection has closed: nil
+[INFO : websocket @ 2017-02-23 19:55:49.883] Instant reconnection flag was set - reconnecting right away
+[INFO : websocket @ 2017-02-23 19:55:50.389] Discord using gateway protocol version: 6, requested: 6
+[WARN : heartbeat @ 2017-02-24 14:16:32.700] Last heartbeat was not acked, so this is a zombie connection! Reconnecting
+[ERROR : heartbeat @ 2017-02-24 14:16:32.700] The websocket connection has closed: nil
+[INFO : websocket @ 2017-02-24 14:16:33.284] Instant reconnection flag was set - reconnecting right away
+[INFO : websocket @ 2017-02-24 14:16:33.708] Discord using gateway protocol version: 6, requested: 6
+[ERROR : websocket @ 2017-02-24 20:50:30.175] The websocket connection has closed: nil
+[ERROR : websocket @ 2017-02-24 20:50:30.175] Websocket close frame received!
+[ERROR : websocket @ 2017-02-24 20:50:30.175] Code: 1001
+[ERROR : websocket @ 2017-02-24 20:50:30.175] Message: 
+[WARN : heartbeat @ 2017-02-24 20:51:11.380] Last heartbeat was not acked, so this is a zombie connection! Reconnecting
+[INFO : websocket @ 2017-02-24 20:52:35.302] Discord using gateway protocol version: 6, requested: 6
+[WARN : heartbeat @ 2017-02-26 23:13:29.269] Last heartbeat was not acked, so this is a zombie connection! Reconnecting
+[ERROR : heartbeat @ 2017-02-26 23:13:29.270] The websocket connection has closed: nil
+[INFO : websocket @ 2017-02-26 23:13:30.029] Instant reconnection flag was set - reconnecting right away
+[INFO : websocket @ 2017-02-26 23:13:30.381] Discord using gateway protocol version: 6, requested: 6
+[ERROR : websocket @ 2017-02-28 03:03:59.753] An error occurred in the main websocket loop!
+[ERROR : websocket @ 2017-02-28 03:03:59.753] Exception: #<Errno::ECONNRESET: Connection reset by peer>
+[ERROR : websocket @ 2017-02-28 03:03:59.753] /home/vincent/.rbenv/versions/2.4.0/lib/ruby/2.4.0/openssl/buffering.rb:57:in `sysread'
+[ERROR : websocket @ 2017-02-28 03:03:59.753] /home/vincent/.rbenv/versions/2.4.0/lib/ruby/2.4.0/openssl/buffering.rb:57:in `fill_rbuff'
+[ERROR : websocket @ 2017-02-28 03:03:59.753] /home/vincent/.rbenv/versions/2.4.0/lib/ruby/2.4.0/openssl/buffering.rb:98:in `read'
+[ERROR : websocket @ 2017-02-28 03:03:59.753] /home/vincent/.rbenv/versions/2.4.0/lib/ruby/2.4.0/openssl/buffering.rb:261:in `getc'
+[ERROR : websocket @ 2017-02-28 03:03:59.753] /home/vincent/.rbenv/versions/2.4.0/lib/ruby/gems/2.4.0/gems/discordrb-3.2.0.1/lib/discordrb/gateway.rb:544:in `block in websocket_loop'
+[ERROR : websocket @ 2017-02-28 03:03:59.753] /home/vincent/.rbenv/versions/2.4.0/lib/ruby/gems/2.4.0/gems/discordrb-3.2.0.1/lib/discordrb/gateway.rb:544:in `synchronize'
+[ERROR : websocket @ 2017-02-28 03:03:59.753] /home/vincent/.rbenv/versions/2.4.0/lib/ruby/gems/2.4.0/gems/discordrb-3.2.0.1/lib/discordrb/gateway.rb:544:in `websocket_loop'
+[ERROR : websocket @ 2017-02-28 03:03:59.753] /home/vincent/.rbenv/versions/2.4.0/lib/ruby/gems/2.4.0/gems/discordrb-3.2.0.1/lib/discordrb/gateway.rb:525:in `connect'
+[ERROR : websocket @ 2017-02-28 03:03:59.753] /home/vincent/.rbenv/versions/2.4.0/lib/ruby/gems/2.4.0/gems/discordrb-3.2.0.1/lib/discordrb/gateway.rb:432:in `block in connect_loop'
+[ERROR : websocket @ 2017-02-28 03:03:59.754] /home/vincent/.rbenv/versions/2.4.0/lib/ruby/gems/2.4.0/gems/discordrb-3.2.0.1/lib/discordrb/gateway.rb:431:in `loop'
+[ERROR : websocket @ 2017-02-28 03:03:59.754] /home/vincent/.rbenv/versions/2.4.0/lib/ruby/gems/2.4.0/gems/discordrb-3.2.0.1/lib/discordrb/gateway.rb:431:in `connect_loop'
+[ERROR : websocket @ 2017-02-28 03:03:59.754] /home/vincent/.rbenv/versions/2.4.0/lib/ruby/gems/2.4.0/gems/discordrb-3.2.0.1/lib/discordrb/gateway.rb:161:in `block in run_async'
+[ERROR : heartbeat @ 2017-02-28 03:04:09.531] The websocket connection has closed: nil
+[ERROR : heartbeat @ 2017-02-28 03:04:09.531] The websocket connection has closed due to an error!
+[ERROR : heartbeat @ 2017-02-28 03:04:09.531] Exception: #<Errno::EPIPE: Broken pipe>
+[ERROR : heartbeat @ 2017-02-28 03:04:09.531] /home/vincent/.rbenv/versions/2.4.0/lib/ruby/2.4.0/openssl/buffering.rb:324:in `syswrite'
+[ERROR : heartbeat @ 2017-02-28 03:04:09.531] /home/vincent/.rbenv/versions/2.4.0/lib/ruby/2.4.0/openssl/buffering.rb:324:in `do_write'
+[ERROR : heartbeat @ 2017-02-28 03:04:09.531] /home/vincent/.rbenv/versions/2.4.0/lib/ruby/2.4.0/openssl/buffering.rb:342:in `write'
+[ERROR : heartbeat @ 2017-02-28 03:04:09.531] /home/vincent/.rbenv/versions/2.4.0/lib/ruby/gems/2.4.0/gems/discordrb-3.2.0.1/lib/discordrb/gateway.rb:746:in `send'
+[ERROR : heartbeat @ 2017-02-28 03:04:09.531] /home/vincent/.rbenv/versions/2.4.0/lib/ruby/gems/2.4.0/gems/discordrb-3.2.0.1/lib/discordrb/gateway.rb:730:in `send_packet'
+[ERROR : heartbeat @ 2017-02-28 03:04:09.531] /home/vincent/.rbenv/versions/2.4.0/lib/ruby/gems/2.4.0/gems/discordrb-3.2.0.1/lib/discordrb/gateway.rb:254:in `send_heartbeat'
+[ERROR : heartbeat @ 2017-02-28 03:04:09.532] /home/vincent/.rbenv/versions/2.4.0/lib/ruby/gems/2.4.0/gems/discordrb-3.2.0.1/lib/discordrb/gateway.rb:247:in `heartbeat'
+[ERROR : heartbeat @ 2017-02-28 03:04:09.532] /home/vincent/.rbenv/versions/2.4.0/lib/ruby/gems/2.4.0/gems/discordrb-3.2.0.1/lib/discordrb/gateway.rb:414:in `block (2 levels) in setup_heartbeats'
+[ERROR : heartbeat @ 2017-02-28 03:04:09.532] /home/vincent/.rbenv/versions/2.4.0/lib/ruby/gems/2.4.0/gems/discordrb-3.2.0.1/lib/discordrb/gateway.rb:407:in `loop'
+[ERROR : heartbeat @ 2017-02-28 03:04:09.532] /home/vincent/.rbenv/versions/2.4.0/lib/ruby/gems/2.4.0/gems/discordrb-3.2.0.1/lib/discordrb/gateway.rb:407:in `block in setup_heartbeats'
+[INFO : websocket @ 2017-02-28 03:06:09.011] Discord using gateway protocol version: 6, requested: 6
+[ERROR : websocket @ 2017-02-28 03:08:27.088] The websocket connection has closed: nil
+[ERROR : websocket @ 2017-02-28 03:08:27.088] Websocket close frame received!
+[ERROR : websocket @ 2017-02-28 03:08:27.088] Code: 1000
+[ERROR : websocket @ 2017-02-28 03:08:27.088] Message: 
+[WARN : heartbeat @ 2017-02-28 03:08:54.542] Last heartbeat was not acked, so this is a zombie connection! Reconnecting
+[INFO : websocket @ 2017-02-28 03:10:43.824] Discord using gateway protocol version: 6, requested: 6
+[WARN : heartbeat @ 2017-03-01 09:38:07.884] Last heartbeat was not acked, so this is a zombie connection! Reconnecting
+[ERROR : heartbeat @ 2017-03-01 09:38:07.884] The websocket connection has closed: nil
+[INFO : websocket @ 2017-03-01 09:38:08.735] Instant reconnection flag was set - reconnecting right away
+[INFO : websocket @ 2017-03-01 09:38:09.074] Discord using gateway protocol version: 6, requested: 6
+[ERROR : websocket @ 2017-03-01 11:36:24.978] The websocket connection has closed: nil
+[ERROR : websocket @ 2017-03-01 11:36:24.978] Websocket close frame received!
+[ERROR : websocket @ 2017-03-01 11:36:24.978] Code: 1001
+[ERROR : websocket @ 2017-03-01 11:36:24.978] Message: 
+[WARN : heartbeat @ 2017-03-01 11:37:06.189] Last heartbeat was not acked, so this is a zombie connection! Reconnecting
+[INFO : websocket @ 2017-03-01 11:38:27.666] Discord using gateway protocol version: 6, requested: 6
+[WARN : heartbeat @ 2017-03-01 13:52:32.005] Last heartbeat was not acked, so this is a zombie connection! Reconnecting
+[ERROR : heartbeat @ 2017-03-01 13:52:32.005] The websocket connection has closed: nil
+[INFO : websocket @ 2017-03-01 13:52:32.528] Instant reconnection flag was set - reconnecting right away
+[INFO : websocket @ 2017-03-01 13:52:32.852] Discord using gateway protocol version: 6, requested: 6
+[ERROR : websocket @ 2017-03-01 18:23:25.682] The websocket connection has closed: nil
+[ERROR : websocket @ 2017-03-01 18:23:25.682] Websocket close frame received!
+[ERROR : websocket @ 2017-03-01 18:23:25.682] Code: 1001
+[ERROR : websocket @ 2017-03-01 18:23:25.682] Message: 
+[WARN : heartbeat @ 2017-03-01 18:24:06.880] Last heartbeat was not acked, so this is a zombie connection! Reconnecting
+[INFO : websocket @ 2017-03-01 18:25:29.851] Discord using gateway protocol version: 6, requested: 6
+[WARN : heartbeat @ 2017-03-02 11:33:19.105] Last heartbeat was not acked, so this is a zombie connection! Reconnecting
+[ERROR : heartbeat @ 2017-03-02 11:33:19.105] The websocket connection has closed: nil
+[INFO : websocket @ 2017-03-02 11:33:19.649] Instant reconnection flag was set - reconnecting right away
+[INFO : websocket @ 2017-03-02 11:33:19.993] Discord using gateway protocol version: 6, requested: 6
+[WARN : heartbeat @ 2017-03-02 15:33:16.464] Last heartbeat was not acked, so this is a zombie connection! Reconnecting
+[ERROR : heartbeat @ 2017-03-02 15:35:31.903] The websocket connection has closed: nil
+[ERROR : websocket @ 2017-03-02 15:35:31.903] An error occurred in the main websocket loop!
+[ERROR : websocket @ 2017-03-02 15:35:31.905] Exception: #<NoMethodError: undefined method `getc' for nil:NilClass>
+[ERROR : websocket @ 2017-03-02 15:35:31.905] /home/vincent/.rbenv/versions/2.4.0/lib/ruby/gems/2.4.0/gems/discordrb-3.2.0.1/lib/discordrb/gateway.rb:544:in `block in websocket_loop'
+[ERROR : websocket @ 2017-03-02 15:35:31.905] /home/vincent/.rbenv/versions/2.4.0/lib/ruby/gems/2.4.0/gems/discordrb-3.2.0.1/lib/discordrb/gateway.rb:544:in `synchronize'
+[ERROR : websocket @ 2017-03-02 15:35:31.905] /home/vincent/.rbenv/versions/2.4.0/lib/ruby/gems/2.4.0/gems/discordrb-3.2.0.1/lib/discordrb/gateway.rb:544:in `websocket_loop'
+[ERROR : websocket @ 2017-03-02 15:35:31.905] /home/vincent/.rbenv/versions/2.4.0/lib/ruby/gems/2.4.0/gems/discordrb-3.2.0.1/lib/discordrb/gateway.rb:525:in `connect'
+[ERROR : websocket @ 2017-03-02 15:35:31.905] /home/vincent/.rbenv/versions/2.4.0/lib/ruby/gems/2.4.0/gems/discordrb-3.2.0.1/lib/discordrb/gateway.rb:432:in `block in connect_loop'
+[ERROR : websocket @ 2017-03-02 15:35:31.905] /home/vincent/.rbenv/versions/2.4.0/lib/ruby/gems/2.4.0/gems/discordrb-3.2.0.1/lib/discordrb/gateway.rb:431:in `loop'
+[ERROR : websocket @ 2017-03-02 15:35:31.905] /home/vincent/.rbenv/versions/2.4.0/lib/ruby/gems/2.4.0/gems/discordrb-3.2.0.1/lib/discordrb/gateway.rb:431:in `connect_loop'
+[ERROR : websocket @ 2017-03-02 15:35:31.905] /home/vincent/.rbenv/versions/2.4.0/lib/ruby/gems/2.4.0/gems/discordrb-3.2.0.1/lib/discordrb/gateway.rb:161:in `block in run_async'
+[INFO : websocket @ 2017-03-02 15:35:31.905] Instant reconnection flag was set - reconnecting right away
+[INFO : websocket @ 2017-03-02 15:35:32.258] Discord using gateway protocol version: 6, requested: 6
