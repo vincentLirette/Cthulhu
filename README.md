@@ -30,6 +30,10 @@ Basically like rolling a 6-sided dice.
 
 Rhum is life.
 
-### tree 
+### !tree
 
 You will see.
+
+### !teabag
+
+Oh yeah.
