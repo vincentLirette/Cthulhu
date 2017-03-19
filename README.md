@@ -10,6 +10,10 @@ List the available commands.
 
 Show the info about the community.
 
+### !social
+
+Show the social links of the community.
+
 ### !cat
 
 Cats are awesome.

@@ -8,6 +8,8 @@ These are the available commands:
 
 !info - Show the info about the community.
 
+!social - Social links for the community.
+
 !cat - Cats are awesome.
 
 !flip - You want to flip a coin, but the other person is far away? Use this.
