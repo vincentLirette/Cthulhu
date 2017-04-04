@@ -8,7 +8,7 @@ module Bot
       command :roll do |event|
         max = 6
         number = Random.new
-        number.rand(max)
+        number.rand(1..max)
       end
     end
   end
