@@ -5,7 +5,7 @@ module Bot
       command :social do |event|
 "**CNF-Paragon**
 
-[Facebook] (https://www.facebook.com/groups/1891729234404648/)
+[Facebook] (https://www.facebook.com/cnfparagon/)
 
 [Twitter] (https://twitter.com/CnfParagon)
 
