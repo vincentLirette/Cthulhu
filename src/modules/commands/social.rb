@@ -5,17 +5,17 @@ module Bot
       command :social do |event|
 "**CNF-Paragon**
 
-[Facebook] (https://www.facebook.com/cnfparagon/)
+[Facebook]	(https://www.facebook.com/cnfparagon/)
 
-[Twitter] (https://twitter.com/CnfParagon)
+[Twitter]	(https://twitter.com/CnfParagon)
 
-[Chaîne Twitch] (https://www.twitch.tv/cnfparagon)
+[Chaîne Twitch]	(https://www.twitch.tv/cnfparagon)
 
-[Groupe Twitch] (https://www.twitch.tv/communities/cnf-paragon)
+[Groupe Twitch]	(https://www.twitch.tv/communities/cnf-paragon)
 
-[Youtube] (https://www.youtube.com/channel/UCuKs9IiWMisILPgsknoHQGw)
+[Youtube]	(https://www.youtube.com/channel/UCuKs9IiWMisILPgsknoHQGw)
 
-[Discord](https://discord.gg/ruVW7xB)"
+[Discord]	(https://discord.gg/ruVW7xB)"
       end
     end
   end

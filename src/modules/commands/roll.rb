@@ -5,10 +5,9 @@ module Bot
     # can use this command.
     module Roll
       extend Discordrb::Commands::CommandContainer
-      command :roll do |event|
-        max = 6
+      command :roll do |event, min = 1, max = 5|
         number = Random.new
-        number.rand(1..max)
+        number.rand(min.to_i..max.to_i)
       end
     end
   end
