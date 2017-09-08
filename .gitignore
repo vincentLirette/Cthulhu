@@ -1,7 +1,11 @@
+# Custom
+nohup.out
+
 # Discord config file
 /data/config.yaml
 /Gemfile.lock
 /run.sh
+nohup.out
 
 *.gem
 *.rbc

@@ -6,17 +6,17 @@
 
 List the available commands.
 
+### !info
+
+Show the info about the community.
+
+### !social
+
+Show the social links of the community.
+
 ### !cat
 
 Cats are awesome.
-
-### !tebeste
-
-Google memes. You know.
-
-### !ping
-
-Use this command to check if Cthulhu is awake.
 
 ### !flip
 
@@ -26,6 +26,22 @@ You want to flip a coin, but the other person is far away? Use this.
 
 Basically like rolling a 6-sided dice.
 
-### !chini
+### !ping
 
-ff20 guys.
+Use this command to check if Cthulhu is awake.
+
+### !tebeste
+
+Google memes. You know.
+
+### !rhum
+
+Rhum is life.
+
+### !tree
+
+You will see.
+
+### !teabag
+
+Oh yeah.

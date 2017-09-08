@@ -3,9 +3,9 @@ module Bot
     # Command for evaluating Ruby code in an active bot.
     # Only the `event.user` with matching discord ID of `CONFIG.owner`
     # can use this command.
-    module Tebeste extend Discordrb::Commands::CommandContainer
-      command :tebeste do |event|
-        image_array = Dir["data/images/tebeste/*"]
+    module Rhum extend Discordrb::Commands::CommandContainer
+      command :rhum do |event|
+        image_array = Dir["data/images/skippy/*"]
         #image_array.sample
         event.channel.send_file File.new(image_array.sample)
       end
