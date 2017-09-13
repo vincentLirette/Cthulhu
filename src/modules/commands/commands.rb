@@ -18,9 +18,6 @@ These are the available commands:
 
 !ping - Use this command to check if the Cthulhu is awake.
 
-<<<<<<< HEAD
-!chini - ff20 guys.
-=======
 !tebeste - Google memes, you know?
 
 !rhum - Rhum is life.
@@ -28,7 +25,6 @@ These are the available commands:
 !tree - You will see.
 
 !teabag - Oh yeah.
->>>>>>> bc680b48a02e33df35f58245e37ecd43c485af28
         ```"
       end
     end
