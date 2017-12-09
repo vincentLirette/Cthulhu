@@ -1,47 +1,7 @@
 # Cthulhu
 
-## Commands
+`Cthulhu` is a bot created for my [Discord](https://discordapp.com/) community server.
 
-### !commands
+##!help
 
-List the available commands.
-
-### !info
-
-Show the info about the community.
-
-### !social
-
-Show the social links of the community.
-
-### !cat
-
-Cats are awesome.
-
-### !flip
-
-You want to flip a coin, but the other person is far away? Use this.
-
-### !roll
-
-Basically like rolling a 6-sided dice.
-
-### !ping
-
-Use this command to check if Cthulhu is awake.
-
-### !tebeste
-
-Google memes. You know.
-
-### !rhum
-
-Rhum is life.
-
-### !tree
-
-You will see.
-
-### !teabag
-
-Oh yeah.
+You can type `!help` in a text channel to display the help tooltip.
