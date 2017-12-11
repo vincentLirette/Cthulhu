@@ -16,7 +16,8 @@ module Bot
   # can access the cache anywhere.
   BOT = Discordrb::Commands::CommandBot.new(client_id: CONFIG.client_id,
                                             token: CONFIG.token,
-                                            prefix: CONFIG.prefix)
+                                            prefix: CONFIG.prefix,
+                                            command_doesnt_exist_message: CONFIG.command_doesnt_exist_message)
 
   # Discord commands
   module DiscordCommands; end
