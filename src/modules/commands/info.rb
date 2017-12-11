@@ -5,8 +5,7 @@ module Bot
       command :info do |event|
         "```
 Bienvenue !
-CNF: Communauté Nord-Americaine Francophone
-        ```"
+CNF: Communauté Nord-Americaine Francophone```"
       end
     end
   end
