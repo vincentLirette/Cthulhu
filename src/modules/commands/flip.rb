@@ -5,7 +5,12 @@ module Bot
     # can use this command.
     module Flip
       extend Discordrb::Commands::CommandContainer
-      command :flip do |event|
+      desc = "Flip a coin."
+      command (:flip,
+        description: desc,
+        help_available: true
+        usage: "#{BOT.prefix}flip") do |event|
+
         coin = ["Heads", "Tail"]
         coin.sample
       end
