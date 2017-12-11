@@ -1,0 +1,18 @@
+---
+# Discord API client ID
+client_id: 'insert_your_client_id'
+
+# Discord API client token
+token: 'insert_api_token'
+
+# Command prefix
+prefix: 'insert_your_prefix'
+
+# ID of bot owner
+owner: 'insert_bot_owner_id'
+
+# game the bot is playing
+game: 'insert_current_game'
+
+#The message that should be displayed if a user attempts to use a command that does not exist.
+command_doesnt_exist_message: "insert_message"
