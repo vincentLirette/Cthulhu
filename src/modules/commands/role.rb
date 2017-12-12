@@ -11,7 +11,7 @@ module Bot
               usage: "#{BOT.prefix}role <action> <role_name> \nex:\n!role add ark\n!role del paragon",
               help_available: true ) do |event, action, role_name|
 
-        auth_role_list = ['ark', 'paragon', 'csgo', 'dota2', 'fortnite', 'hearthstone', 'league', 'overwatch', 'pubg', 'rocketleague', 'smite', 'membre', 'autrejeux']
+        auth_role_list = ['ark', 'paragon', 'csgo', 'dota2', 'fortnite', 'hearthstone', 'league', 'overwatch', 'pubg', 'rocketleague', 'smite', 'membre', 'autresjeux']
 
         if event.channel.name.eql?('bot-commands')
           current_server = event.author.server
